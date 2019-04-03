@@ -6,13 +6,15 @@ import { BookDetailsComponent } from './book-details/book-details.component';
 import { BookEditComponent } from './book-edit/book-edit.component';
 import { FormsModule } from '@angular/forms';
 import { MemberComponent } from './member/member.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookDetailsComponent,
     BookEditComponent,
-    MemberComponent
+    MemberComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
